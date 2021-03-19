@@ -38,6 +38,7 @@ export function App() {
         selectedGenreId={selectedGenreId}
         handleClickButton={handleClickButton}
       ></SideBar>
+
       <Content selectedGenreId={selectedGenreId}></Content>
     </div>
   );
